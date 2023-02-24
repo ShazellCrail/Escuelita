@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+			<?php include 'sections/header.php'?>
+        		<title>Formulario de registro</title>
+			<meta characterset="UTF-8">
+        		<link rel="stylesheet"  href="css\registro.css">
+	</head>
+	<body>
+		<?php include 'sections/nav.php'?>
+		<form action="registrar.php" method="post">
+	       		<h2>REGISTRO</h2>
+			<input type="text" name="nombre" placeholder="Escribe aquí tu(s) nombre(s)" title="Solo tu(s) nombre(s), sin apellidos" required>
+	       		<input type="text" name="apellidos" placeholder="Escribe aquí tus apellidos" title="Primero tu apellido paterno, seguido de tu apellido materno" required>
+			<label>FECHA DE NACIMIENTO:</label><br><br>
+			<input type="date" name="fecha_nac" title="Escribe aquí tu fecha de nacimiento" required>
+	      		<input type="email" name="correo" placeholder="Escribe aquí tu correo electrónico" title="ejemplo@hotmail.com" required>
+	       		<input type="password" name="contrasenia" placeholder="Escribe aquí tu contraseña" title="Una contraseña segura debe tener más de 7 dígitos, mayúsculas, minúsculas, números y caracteres especiales" required>
+			<input type="password" name="confirmacion" placeholder="Confirma aquí tu contraseña" required>
+           		<label>ROL:</label><br><br>
+			<select name="rol" size="1" required>
+  				<option value="2">Profesor</option>
+  				<option value="3">Estudiante</option>
+			</select><br>
+			<input type="submit" name="enviar" value="ENVIAR" id="boton">
+        	</form>
+		<?php include 'sections/scripts.php'?>
+    	</body>
+</html>

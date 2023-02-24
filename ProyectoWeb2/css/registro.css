@@ -1,0 +1,41 @@
+﻿body{
+    	font-family:monospace;
+}
+
+form{
+	width:450px;
+	margin:auto;
+	background: #98CDCD;
+	padding:10px 20px;  /*relleno que tiene un formulario */
+	box-sizing:border-box;
+	margin-top:30px;
+	border-radius:7px;
+}
+	
+h2{
+	color:black;
+	text-align:center;
+	margin:0;
+	font-size:30px;
+	margin-bottom:22px;
+}
+	
+input, select{
+	width:400px;
+	margin-bottom:20px;
+	padding:7px;
+	box-sizing:border-box;
+	font-size:17px;
+	border:none;
+}
+
+label{
+	font-size:14px;
+}
+	
+#boton{
+	background:#002452;
+	font-size:17px;
+    	color:white;
+    	padding:20px;
+}

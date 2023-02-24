@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>La caja de sorpresas</title>
+</head>
+<body>
+    <h1>2. La caja de sorpresas.</h1>
+    <form action = "actividad2.html" method = "post" class = "form" id = "form">
+        <div class = "form_field">
+            <label for = "question_1">1. Trabajen en parejas con su caja de sorpresas.</label>
+            </br><label for = "subquestion_1">&nbsp;&nbsp;&nbsp;&nbsp; ¿Quién tiene más cosas?</label>
+            </br><input type = "text" id = "res_1" name = "res_1">
+        </div>
+        <div class = "form_field">
+            <label for = "question_2">2. Anota cuántas cosas tienen.</label>
+            
+            </br><label for = "res_2_1">Tú: </label>
+            <input type = "text" name = "res_2_1" id = "res_2_1">
+            
+            </br><label for = "res_2_2">Tu compañero: </label>
+            <input type = "text" name = "res_2_2" id = "res_2_2">
+        </div>
+
+        <label for = "question_3">3. Selecciona quién tiene más.</label>    
+
+        <div id = "res3_1" class = "form_field">
+            </br><img src = "imgLuzAmanda.png" width = "200" height = "100">
+            </br><label for = "res">Luz</label>
+            <input type = "radio" name = "res_3_1"  value = "Luz">
+            <label for = "res">Amanda</label>
+            <input type = "radio" name = "res_3_1"  value = "Amanda">
+        </div>
+
+        <div id = "res3_2" class = "form_field">
+            </br><img src = "imgAdrianArmando.png" width = "200" height = "100">
+            </br><label for = "res">Adrián</label>
+            <input type = "radio" name = "res_3_2"  value = "Adrian" >
+            <label for = "res">Armando</label>
+            <input type = "radio" name = "res_3_2"  value = "Armando">
+        </div>
+
+        <div id = "res3_3" class = "form_field">
+            </br><img src = "imgCeciliaOscar.png" width = "200" height = "100">
+            </br><label for = "res">Cecilia</label>
+            <input type = "radio" name = "res_3_3"  value = "Cecilia">
+            <label for = "res">Óscar</label>
+            <input type = "radio" name = "res_3_3"  value = "Oscar">
+        </div>
+        
+        <div id = "res3_4" class = "form_field">
+            </br><img src = "imgDarioJimena.png" width = "200" height = "100">
+            </br><label for = "res">Darío</label>
+            <input type = "radio" name = "res_3_4"  value = "Dario">
+            <label for = "res">Jimena</label>
+            <input type = "radio" name = "res_3_4"  value = "Jimena">
+        </div>
+        
+        <div>
+            <label for = "question_4">4. ¿Cómo saben quién tiene más cosas?</label>
+            </br><input type = "text" name = "res_4" id = "res_4">
+        </div>
+        <br><button id = "submitButton">Finalizar</button>
+    </form>
+    <script src = "actividad2.js"></script>
+</body>
+</html>
